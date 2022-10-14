@@ -112,7 +112,7 @@ main {
     margin: 0px 10px 0px 0px;
 }
 
-.main__footer {
+footer {
     display: flex;
     justify-content: start;
     position: absolute;
@@ -126,7 +126,7 @@ main {
     align-items: center;
     width: 200px;
 }
-.main__footer a {
+footer a {
     color: #999;
     font-size: 14px;
 }
