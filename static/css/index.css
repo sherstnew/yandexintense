@@ -1,0 +1,132 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-size: 18px;
+}
+a {
+    color: #0054b9;
+    text-decoration: none;
+    font-size: 16px;
+}
+main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    height: 100vh;
+    font: 0.94em Arial,Helvetica,sans-serif;
+}
+.main-container {
+    display: flex;
+    justify-content: center;
+    width: 900px;
+}
+
+.main__content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    width: 900px;
+    height: 320px;
+}
+
+.content__search {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 900px;
+}
+.search__search-container {
+    display: flex;
+    align-items: center;
+    width: 760px;
+    height: 40px;
+    background: #ffca3a;
+    padding: 2px;
+    border-radius: 10px;
+}
+
+.search-container__search-input {
+    width: 670px;
+    height: 40px;
+    border: none;
+    outline: none;
+    border-radius: 7px;
+    padding: 0px 0px 0px 15px;
+    font-size: 18px;
+}
+.search-container__search-input::placeholder {
+    font-size: 18px;
+}
+.search-container__search-btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 90px;
+}
+
+.content__error404 {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex-wrap: wrap;
+    width: 650px;
+    height: 70px;
+}
+.error404__header {
+    font-size: 24px;
+}
+.error404__feedback {
+    font-size: 16px;
+}
+
+.content__services {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 650px;
+    height: 115px;
+}
+.services__left-side {
+    width: 400px;
+    height: 115px;
+}
+.services__right-side {
+    width: 420px;
+    height: 115px;
+}
+.service-name {
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    font-size: 14px;
+    margin: 0px 0px 10px 0px;
+}
+.service-name a{
+    font-size: 14px;
+}
+.service-icon {
+    width: 19px;
+    height: 19px;
+    margin: 0px 10px 0px 0px;
+}
+
+.main__footer {
+    display: flex;
+    justify-content: start;
+    position: absolute;
+    bottom: 25px;
+    width: 680px;
+}
+
+.footer__links {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 200px;
+}
+.main__footer a {
+    color: #999;
+    font-size: 14px;
+}
