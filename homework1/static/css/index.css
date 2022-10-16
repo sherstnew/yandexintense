@@ -19,8 +19,7 @@ body {
     flex-wrap: wrap;
     width: 100vw;
     height: 100vh;
-    font: 0.94em Arial,Helvetica,sans-serif;
-    font-size: 18px;
+    font: 18px Arial,Helvetica,sans-serif;
     color: #000;
 }
 main {
@@ -69,6 +68,16 @@ main {
     justify-content: center;
     align-items: center;
     width: 90px;
+    height: 40px;
+    background: #ffca3a;
+    color: #000;
+    font: 18px Arial,Helvetica,sans-serif;
+    transition: 0.5s;
+    cursor: pointer;
+}
+.search__search-btn:hover {
+    transition: 0.5s;
+    background: #f5c400;
 }
 
 .error {
@@ -120,7 +129,7 @@ main {
     margin: 0px 10px 0px 0px;
 }
 
-footer {
+.footer {
     display: flex;
     justify-content: start;
     align-items: center;
@@ -135,7 +144,7 @@ footer {
     align-items: center;
     width: 200px;
 }
-footer a {
+.footer__links a {
     color: #999;
     font-size: 14px;
 }
