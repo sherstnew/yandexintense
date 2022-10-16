@@ -138,13 +138,8 @@ main {
     width: 680px;
 }
 
-.footer__links {
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    width: 200px;
-}
-.footer__links a {
+.footer a {
     color: #999;
     font-size: 14px;
+    margin: 0px 10px 0px 0px;
 }
